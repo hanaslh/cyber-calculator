@@ -1,0 +1,75 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgb(241, 243, 245) 0%, #adc2e6 100%);
+}
+
+.bg-gradient {
+  background: linear-gradient(90deg, #1a2980 0%, #26d0ce 100%);
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.card-header {
+  border-radius: 10px 10px 0 0 !important;
+}
+
+.list-group-item {
+  border-left: none;
+  border-right: none;
+}
+
+.input-group-text {
+  font-size: 0.875rem;
+}
+
+.btn-group .btn {
+  margin-right: 5px;
+}
+
+.display-4 {
+  font-size: 3.5rem;
+}
+
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  
+  .card-body .row {
+    flex-direction: column;
+  }
+}
+
+.badge {
+  font-size: 0.8rem;
+}
+
+.alert {
+  border-radius: 8px;
+}
+/* Hide number input arrows globally */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Optional: Style for better UX */
+.form-control[type="number"]:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Error styling */
+.text-danger.small {
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+}
