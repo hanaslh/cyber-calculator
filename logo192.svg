@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Shield background (cybersecurity theme) -->
+  <path d="M50 5 L15 25 L15 75 L50 95 L85 75 L85 25 Z" 
+        fill="#1a2980" 
+        stroke="#0d6efd" 
+        stroke-width="1"/>
+  
+  <!-- Calculator body -->
+  <rect x="25" y="30" 
+        width="50" 
+        height="40" 
+        rx="5" 
+        fill="#26d0ce" 
+        stroke="#ffffff" 
+        stroke-width="1.5"/>
+  
+  <!-- Calculator screen -->
+  <rect x="30" y="35" 
+        width="40" 
+        height="10" 
+        rx="2" 
+        fill="#ffffff"/>
+  
+  <!-- Calculator buttons -->
+  <circle cx="35" cy="55" r="3.5" fill="#ffffff"/>
+  <circle cx="45" cy="55" r="3.5" fill="#ffffff"/>
+  <circle cx="55" cy="55" r="3.5" fill="#ffffff"/>
+  <circle cx="65" cy="55" r="3.5" fill="#ffffff"/>
+  
+  <circle cx="35" cy="65" r="3.5" fill="#ffffff"/>
+  <circle cx="45" cy="65" r="3.5" fill="#ffffff"/>
+  <circle cx="55" cy="65" r="3.5" fill="#ffffff"/>
+  <circle cx="65" cy="65" r="3.5" fill="#ffffff"/>
+
+</svg>
